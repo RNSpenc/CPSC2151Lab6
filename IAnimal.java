@@ -12,9 +12,9 @@
  *          leg: legCount
  *          )
  *
- * @constraints The strings cannot be empty and fin and leg cannot be less than 0
+ * @constraints commonName.length > 0 AND species.length > 0 and genus.length > 0
  *
- * @initialization_ensures an animal will have a name a species and a genus then if fish it will have a fin count and if it is a Mammal it will have a leg count
+ * @initialization_ensures an animal will have a commonName a species and a genus
  */
 public interface IAnimal
 {

@@ -2,7 +2,7 @@
 /**
  *
  *
- * @invariant
+ * @invariant commonName.length > 0 AND genus.length > 0 AND species.length > 0 AND legCount >= 0
  *
  * @corresponds
  *

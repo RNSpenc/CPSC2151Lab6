@@ -5,7 +5,7 @@
  * @invariant
  * commonName.length > 0 AND genus.length > 0 AND species.length > 0 AND finCount > 0
  *
- * @corresponds
+ * @corresponds commonName = commonName AND genus = genus AND species = species AND finCount = finCount
  *
  */
 public class Fish implements IFish {

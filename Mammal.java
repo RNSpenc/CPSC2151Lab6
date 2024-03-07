@@ -4,7 +4,7 @@
  *
  * @invariant commonName.length > 0 AND genus.length > 0 AND species.length > 0 AND legCount >= 0
  *
- * @corresponds
+ * @corresponds commonName = commanName; genus = genus; species = species; legCount = legCount
  *
  */
 public class Mammal implements IMammal{

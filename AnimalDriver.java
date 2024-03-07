@@ -19,7 +19,13 @@ public class AnimalDriver {
 
         //Do not change anything above this line------------------------------------------------------------------------
 
+        //Print descriptions of each animal
+        for(IAnimal animal : myAnimals){
+            System.out.println(animal.getDescription());
+        }
 
+        int totalLegs = 0;
+        int totalFins = 0;
 
     }
 }

@@ -5,16 +5,10 @@
  * @defines genus: aGenus
  *          species: aSpecies
  *          commonName: aName
- *          if Fish(
- *          fin: finCount
- *          )
- *          if Mammal(
- *          leg: legCount
- *          )
  *
  * @constraints commonName.length > 0 AND species.length > 0 and genus.length > 0
  *
- * @initialization_ensures an animal will have a commonName a species and a genus
+ * @initialization_ensures an animal will have a commonName a species and a genus when initialized
  */
 public interface IAnimal
 {

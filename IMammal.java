@@ -2,11 +2,11 @@
  * IMammal creates an interface to describe different mammal, such as the number of
  * legs a certain mammal has
  *
- * @defines the behaviors specific to mammals, extending the general animal behavior
+ * @defines leg: legCount
  *
  * @constraints legCount >= 0
  *
- * @initialization_ensures that legCount is initialized to 0
+ * @initialization_ensures mammal has a legCount, name, species and genus when initialized
  */
 public interface IMammal extends IAnimal
 {

@@ -1,4 +1,6 @@
 /**
+ * IAnimal represents an animal, either a fish or a mammal
+ * strings should not be empty and ints should not be negative
  *
  * @defines genus: aGenus
  *          species: aSpecies

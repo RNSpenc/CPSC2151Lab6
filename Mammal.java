@@ -1,10 +1,11 @@
 
 /**
- *
+ * Mammals.java creates a class of mammals and gives each mammal a description that gives the common
+ * name, genus, species, and leg count
  *
  * @invariant commonName.length > 0 AND genus.length > 0 AND species.length > 0 AND legCount >= 0
  *
- * @corresponds commonName = commanName; genus = genus; species = species; legCount = legCount
+ * @corresponds common = commonName && genus = genus && species = species && legs = legCount
  *
  */
 public class Mammal implements IMammal{

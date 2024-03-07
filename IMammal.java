@@ -6,7 +6,7 @@
  *
  * @constraints legCount >= 0
  *
- * @initialization_ensures that legcount is initiialized to 0
+ * @initialization_ensures that legCount is initialized to 0
  */
 public interface IMammal extends IAnimal
 {

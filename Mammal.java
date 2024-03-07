@@ -15,7 +15,18 @@ public class Mammal implements IMammal{
     private int legCount;
 
     /**
+     * the parameterized constructor for the Mammal object
      *
+     * @param aCommonName: the common name of the mammal, a string
+     * @param aLegCount: the fin count of the mammal, an int
+     * @param aGenus: the Genus of the mammal, a string
+     * @param aSpecies: the species of the mammal, a string
+     *
+     * @pre
+     * aCommonName.length > 0 AND aGenus.length > 0 AND aSpecies.length > 0 AND aLegCount > 0
+     *
+     * @post
+     * this.commonName = aCommonName AND this.genus = aGenus AND this.species = aSpecies AND this.legCount = aLegCount
      *
      */
     public Mammal(String aCommonName, String aGenus, String aSpecies, int aLegCount)

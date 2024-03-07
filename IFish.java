@@ -1,11 +1,11 @@
 /**
  *
  *
- * @defines
+ * @defines getFinCount as an extension of IFish
  *
- * @constraints
+ * @constraints finCount >= 0;
  *
- * @initialization_ensures
+ * @initialization_ensures that getFinCount is implemented as an extension of IFish
  */
 public interface IFish extends IAnimal
 {

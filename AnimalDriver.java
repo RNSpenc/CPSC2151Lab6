@@ -27,5 +27,17 @@ public class AnimalDriver {
         int totalLegs = 0;
         int totalFins = 0;
 
+        for (IAnimal animal : myAnimals) {
+            if (animal instanceof IFish) {
+                totalFins += ((IFish) animal).getFinCount();
+            }
+            else if (animal instanceof IMammal) {
+                totalLegs += ((IMammal) animal).getLegCount();
+            }
+        }
+
+        System.out.println("Total number of fins: " + totalFins);
+        System.out.println("Total number of legs: " + totalLegs);
+
     }
 }

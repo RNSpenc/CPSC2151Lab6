@@ -3,7 +3,7 @@
  *
  * @defines getFinCount as an extension of IFish
  *
- * @constraints finCount >= 0;
+ * @constraints finCount >= 0
  *
  * @initialization_ensures that getFinCount is implemented as an extension of IFish
  */

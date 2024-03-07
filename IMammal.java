@@ -11,7 +11,14 @@
 public interface IMammal extends IAnimal
 {
     /**
-     * @return the number of legs a certain mammal may have
+     * returns the value of legCount
+     *
+     * @return legCount, an int
+     *
+     * @pre none
+     * @post
+     * getlegCount = legCount AND legCount = #legCount AND commonName = #commonName AND genus = #genus AND species = #species
+     *
      */
     public int getLegCount();
 }

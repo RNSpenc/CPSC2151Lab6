@@ -1,5 +1,5 @@
 /**
- *  IFish extends IMammal to allow for the inclusion of the unique function getFinCount
+ * IFish extends IMammal to allow for the inclusion of the unique function getFinCount
  *
  * @defines getFinCount as an extension of IFish
  *

@@ -1,6 +1,6 @@
 
 /**
- * Defines the fish object.
+ * Defines the fish object, which includes fields for commonName, genus, species, and a unique field finCount
  *
  * @invariant
  * commonName.length > 0 AND genus.length > 0 AND species.length > 0 AND finCount > 0

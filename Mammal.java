@@ -4,7 +4,7 @@
  *
  * @invariant
  *
- * @corresponds
+ * @corresponds commonName = commanName; genus = genus; species = species; legCount = legCount
  *
  */
 public class Mammal implements IMammal{

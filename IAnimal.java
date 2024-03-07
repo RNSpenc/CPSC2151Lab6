@@ -23,7 +23,7 @@ public interface IAnimal
      *
      * @return commonName, a String
      *
-     * @pre commonName != NULL
+     * @pre none
      *
      * @post
      *      getCommonName = commonName AND genus = #genus AND species = #species
@@ -35,7 +35,7 @@ public interface IAnimal
      *
      * @return genus, a String
      *
-     * @pre genus != NULL
+     * @pre none
      *
      * @post
      *      getGenus = genus AND commonName = #commonName AND species = #species
@@ -47,7 +47,7 @@ public interface IAnimal
      *
      * @return species, a String
      *
-     * @pre species != NULL
+     * @pre none
      *
      * @post
      * getSpecies = species AND genus = #genus AND commonName = #commonName
@@ -59,7 +59,7 @@ public interface IAnimal
      *
      * @return a combination of strings as a single String
      *
-     * @pre string != NULL
+     * @pre none
      *
      * @post
      * getDescription = getCommonName() + properGenusFormatting + getSpecies()

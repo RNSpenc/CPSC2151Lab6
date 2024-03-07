@@ -1,5 +1,6 @@
 /**
- *
+ * IMammal creates an interface to describe different mammal, such as the number of
+ * legs a certain mammal has
  *
  * @defines the behaviors specific to mammals, extending the general animal behavior
  *
